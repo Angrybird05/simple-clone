@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: powderblue;
+}
+.navbar{
+    height: 65px; 
+    background-color: #ffffff;
+   padding-left: 28px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-right: 28px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+
+
+}
+.logo{
+    height: 40px;
+    width: 160px;
+    background-image: url(flipkart\ logo\ main.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.searchsign{
+    background-color: aliceblue;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: large;
+    width: 600px;
+    height: 40px;
+    padding: 0   solid black;
+    background-color:aliceblue;
+    font-size: medium;
+    border: none;
+
+    
+}
+#input{
+    width: 550px;
+    height: 40px;
+    padding: 0   solid black;
+    background-color:aliceblue;
+    font-size: medium;
+    border: none;
+}
+.loginsymbol{
+    height: 42px;
+    width: 111px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.login{
+    margin:6px;
+    font-size: 0.85rem;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart{
+    display: flex;
+    height: 25px;
+    width: 111px;
+    align-items: center;
+}
+.ccart{
+    margin:6px;
+    font-size: 0.85rem;
+    color: #000000;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 195px;
+}
+.sshop{
+    margin: 6px;
+    display: flex;
+}
+.options{
+    height: 25px;
+    width: 25px;
+
+}
+.pannel1{
+    height: 126px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: #ffffff; 
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.box{
+    width: 90px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.boxin div{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    background-image: url(grocery\ flipkart.jpg);
+    background-size: cover;
+    margin-bottom: 15px;
+
+  
+}
+.grocery{
+    color: #000000;
+    font-size: 16px;
+}
+.boxin1 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(moblies\ flipkart.webp);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin2 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(fasion\ flipkart.webp);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin3 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(electronics\ flipkart.jpg);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin4 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(home\ and\ furniture\ flipkart.avif);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin5 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(appliances\ flipkart.webp);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin6 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(flight\ flipkart.webp);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin7 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(toys\ flipkart.jpeg);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.boxin8 div{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    background-image: url(two\ wheeler\ flipkart.webp);
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.mainpannel{
+    height: 225px;
+    margin-right: 25px;
+    margin-top: 15px ;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(main\ image\ 1.webp);
+    
+}
+ a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+ .button a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous { 
+    color: black;
+  }
+  
+  .next {
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+.smartphones{
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 8px;
+    height: 25px;
+    margin-right: 25px;;
+    margin-left: 25px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.phones{
+    height: 350px;
+    margin-right: 25px;
+    background-color: #ffffff;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.phone1{
+    height: 280px;
+    width: 200px;
+    padding: 20px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.price{
+    height: 230px;
+    background-image: url(realmep1.jpg);
+    background-size: cover ;
+}
+.brand{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 13px;
+}
+.brand h4 {
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+.phone2{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.price2{
+    height: 230px;
+    background-image: url(realme\ p1\ pro.webp);
+    background-size: cover ;
+}
+.phone3{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.price3{
+    height: 230px;
+    background-image: url(vivo\ t2\ pro\ 5g.webp);
+    background-size: cover ;
+}.phone4{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.price4{
+    height: 230px;
+    background-image: url(poco.jpg);
+    background-size: cover ;
+}
+.phone5{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.price5{
+    height: 230px;
+    background-image: url(moto.webp);
+    background-size: cover ;
+}
+.price:hover{
+    width: 200px;
+    height: 235px;
+}
+.price2:hover{
+    width: 200px;
+    height: 235px;
+}
+.price3:hover{
+    width: 200px;
+    height: 235px;
+}
+.price4:hover{
+    width: 200px;
+    height: 235px;
+}
+.price5:hover{
+    width: 200px;
+    height: 235px;
+}
+.only{
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 8px;
+    height: 25px;
+    margin-right: 25px;;
+    margin-left: 25px;
+    padding: 16px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.kurtas{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.pricek{
+    height: 230px;
+    background-image: url(kurta.avif);
+    background-size: cover ;
+}
+.fasion{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.pricef{
+    height: 230px;
+    background-image: url(fasions.webp);
+    background-size: cover ;
+}
+.menswear{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.pricem{
+    height: 230px;
+    background-image: url(mens\ wear.jpeg);
+    background-size: cover ;
+}
+.kids{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.pricec{
+    height: 230px;
+    background-image: url(kids\ wear.jpg);
+    background-size: cover ;
+}
+.watches{
+    height: 280px;
+    width: 200px;
+    padding: 25px;
+    border:1px solid rgb(177, 167, 167);
+    border-radius: 6px;
+}
+.pricew{
+    height: 230px;
+    background-image: url(watches.webp);
+    background-size: cover ;
+}
+.pricew:hover{
+    height: 235px;
+    width: 205px;
+}
+.pricek:hover{
+    height: 235px;
+    width: 205px;
+}
+.pricef:hover{
+    height: 235px;
+    width: 205px;
+}
+.pricec:hover{
+    height: 235px;
+    width: 205px;
+}
+.pricem:hover{
+    height: 235px;
+    width: 205px;
+}
+.celebrate{
+   height: 117px;
+   margin-right: 25px;;
+   margin-left: 25px;
+   background-image: url(celebrate.webp);
+   background-size: cover;
+   background-repeat: none;
+}
+.shaddi{
+    height: 270px;
+    margin-right: 25px;;
+   margin-left: 25px;
+   background-color: #ffffff;
+   display:flex;
+   justify-content: space-evenly;
+}
+.shaddi1{
+    height: 270px;
+    width: 480px;
+    background-image: url(shaddi1.webp);
+    background-size: cover;
+}
+.shaddi2{
+    height: 270px;
+    width: 480px;
+    background-image: url(shaddi2.webp);
+    background-size: cover;
+}.shaddi3{
+    height: 270px;
+    width: 480px;
+    background-image: url(shaddi3.webp);
+    background-size: cover;
+}
+.footer{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 60px 60px 60px;
+    height: 170px;
+    background-color: rgba(29, 14, 14, 0.938);
+    color: #ffffff;
+    display: flex;  
+    justify-content: space-evenly;
+}
+.footer a{
+    font-size: 0.69rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.footer ul{
+    padding-top: 10px;
+    color: #878787;
+    font-size: 0.85rem;
+}
+.last{
+    height: 55px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-top: 1px solid rgb(161, 144, 144);
+    color: #ffffff;
+    background-color: rgba(29, 14, 14, 0.938);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
